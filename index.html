@@ -1,0 +1,261 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+  </head>
+  <body>
+    <header class="container">
+      <nav id="desktop-nav">
+        <div class="logo">Shakhzod Gayratov</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <nav id="hamburger-nav">
+      <div class="logo">Shakhzod Gayratov</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile" class="container">
+      <div class="section__pic-container">
+        <img src="images/profile-pic.png" alt="Shakhzod profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Shakhzod Gayratov</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="images/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/shakhzod-gayratov-3a9772288/'">
+          <img src="images/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Tuprosov'">
+        </div>
+      </div>
+    </section>
+    <section id="about" class="container">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="images/experience.png" alt="Experience icon" class="icon">
+              <h3>Experience</h3>
+              <p>1 year <br>Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img src="images/education.png" alt="Education icon" class="icon">
+              <h3>Education</h3>
+              <p>Noroff Vocational School<br>Front End Development</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hello! I'm Shakhzod, a dedicated front-end developer with a passion for creating stunning and responsive web applications. I've been honing my skills in HTML, CSS, and JavaScript for the past year at Noroff School of Technology and Digital Media. Currently, I'm diving into the world of React to build even more dynamic user interfaces <br>
+              When I'm not coding, I enjoy exploring new technologies, reading tech blogs, and collaborating with other developers on exciting projects. I’m always eager to take on new challenges and contribute to projects that push the boundaries of web development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience" class="container">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Figma</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Currently Learning</p>
+                </div>
+              </article>
+              <article>
+                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>React</h3>
+                  <p>Currently Learning</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects" class="container">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/project-1.png" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Rainydays</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NoroffFEU/html-css-course-assignment-Tuprosov'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://norofffeu.github.io/html-css-course-assignment-Tuprosov/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/project-2.png" alt="Project 2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Science Com</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Tuprosov/Semester-Project-1'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tuprosov.github.io/Semester-Project-1/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/project-3.png" alt="Project 3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">HotviewLabs</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NoroffFEU/FED1-PE1-Tuprosov'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://norofffeu.github.io/FED1-PE1-Tuprosov/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/project-4.png" alt="Project 4" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Etch a Sketch</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Tuprosov/etch_a_sketch'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tuprosov.github.io/etch_a_sketch/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="images/project-5.png" alt="Project 5" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Web Drum kit</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Tuprosov/Drum_kit'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://tuprosov.github.io/Drum_kit/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact" class="container">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="images/email.png" alt="Email icon" class="icon contact-icon email-icon">
+          <p><a href="mailto:shahzodwill@gmail.com">shahzodwill@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer class="container">
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright © 2023 Shakhzod Gayratov. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  
+
+</body></html>
