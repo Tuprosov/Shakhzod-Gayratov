@@ -35,6 +35,10 @@ Here are some projects I've worked on during my front-end journey:
    - Description: A simple interactive online sketching tool.
    - Technologies Used: HTML, CSS, JavaScript.
 
+4. Project 4: [Auction website](https://tuprosov.github.io/Semester-Project-2/)
+   - Description: An Auction website.
+   - Technologies Used: HTML, CSS, JavaScript, TailwindCSS, OOP.
+
 I have other projects, feel free to check out.
 
 ## Goals
